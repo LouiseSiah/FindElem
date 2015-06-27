@@ -32,7 +32,7 @@ int intCompare(void *first, void *second) //0 = equal,non-0 =not equal
     return -1;
 }
 
-int stringCompare(void *first, void *second)
+int strCompare(void *first, void *second)
 {
   //printf("first = %s\n", (char *)first);
   return (strcmp(((char *)first),((char *)second)));
